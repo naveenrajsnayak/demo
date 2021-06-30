@@ -1,0 +1,4 @@
+Steps :
+1. Please excecute the script given in "SQL Script" file in MSSQL management studio.
+2. Configure the database in "App.Config" in ShopDataAccess project
+3. Configure the database in "Web.Config" in ShopBridge project

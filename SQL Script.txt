@@ -1,0 +1,20 @@
+Create database Ecommerce
+
+use [Ecommerce]
+create table ShopItems
+(
+ItemId int primary key identity,
+ItemName nvarchar(100) not null,
+ItemDescription nvarchar(max),
+Price real not null,
+IsAvailable bit not null
+)
+
+
+insert into ShopItems values ('Mask','N95 Masks',350,1)
+insert into ShopItems values ('Sanitizer','80% Ethanol sanitizers',225.5,1)
+insert into ShopItems values ('Umbrela','Wolf Umbrelas',150,1)
+insert into ShopItems values ('PPE Kit','PPE Kits',990,0)
+insert into ShopItems values ('Vegitable','Vegitables',200,1)
+insert into ShopItems values ('Fruit','Fruits',225.5,1)
+insert into ShopItems values ('Drinks','Hot Drinlks',270,1)
